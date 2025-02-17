@@ -1,0 +1,102 @@
+2025-02-17 09:52:29,227 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.99.2:5000
+2025-02-17 09:52:29,227 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-17 09:52:29,230 - INFO -  * Restarting with stat
+2025-02-17 09:52:30,552 - WARNING -  * Debugger is active!
+2025-02-17 09:52:30,559 - INFO -  * Debugger PIN: 138-450-647
+2025-02-17 09:52:39,497 - INFO - 127.0.0.1 - - [17/Feb/2025 09:52:39] "GET / HTTP/1.1" 200 -
+2025-02-17 09:52:40,643 - INFO - 127.0.0.1 - - [17/Feb/2025 09:52:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-17 09:52:59,350 - INFO - File saved: uploads\20250217_095259_students.xlsx
+2025-02-17 09:53:00,252 - INFO - Total students in input file: 773
+2025-02-17 09:53:00,268 - INFO - Section A distribution plan:
+2025-02-17 09:53:00,269 - INFO - Set A: 13 students
+2025-02-17 09:53:00,269 - INFO - Set B: 13 students
+2025-02-17 09:53:00,269 - INFO - Set C: 13 students
+2025-02-17 09:53:00,269 - INFO - Set D: 12 students
+2025-02-17 09:53:00,269 - INFO - Set E: 12 students
+2025-02-17 09:53:00,277 - INFO - Section B distribution plan:
+2025-02-17 09:53:00,277 - INFO - Set A: 13 students
+2025-02-17 09:53:00,277 - INFO - Set B: 13 students
+2025-02-17 09:53:00,277 - INFO - Set C: 13 students
+2025-02-17 09:53:00,277 - INFO - Set D: 12 students
+2025-02-17 09:53:00,277 - INFO - Set E: 12 students
+2025-02-17 09:53:00,280 - INFO - Section C distribution plan:
+2025-02-17 09:53:00,280 - INFO - Set A: 13 students
+2025-02-17 09:53:00,280 - INFO - Set B: 13 students
+2025-02-17 09:53:00,281 - INFO - Set C: 13 students
+2025-02-17 09:53:00,281 - INFO - Set D: 12 students
+2025-02-17 09:53:00,281 - INFO - Set E: 12 students
+2025-02-17 09:53:00,285 - INFO - Section D distribution plan:
+2025-02-17 09:53:00,285 - INFO - Set A: 13 students
+2025-02-17 09:53:00,285 - INFO - Set B: 13 students
+2025-02-17 09:53:00,285 - INFO - Set C: 13 students
+2025-02-17 09:53:00,285 - INFO - Set D: 12 students
+2025-02-17 09:53:00,285 - INFO - Set E: 12 students
+2025-02-17 09:53:00,289 - INFO - Section E distribution plan:
+2025-02-17 09:53:00,289 - INFO - Set A: 13 students
+2025-02-17 09:53:00,289 - INFO - Set B: 13 students
+2025-02-17 09:53:00,289 - INFO - Set C: 13 students
+2025-02-17 09:53:00,289 - INFO - Set D: 12 students
+2025-02-17 09:53:00,290 - INFO - Set E: 12 students
+2025-02-17 09:53:00,298 - INFO - Section F distribution plan:
+2025-02-17 09:53:00,300 - INFO - Set A: 14 students
+2025-02-17 09:53:00,302 - INFO - Set B: 13 students
+2025-02-17 09:53:00,303 - INFO - Set C: 13 students
+2025-02-17 09:53:00,303 - INFO - Set D: 13 students
+2025-02-17 09:53:00,303 - INFO - Set E: 13 students
+2025-02-17 09:53:00,317 - INFO - Section G distribution plan:
+2025-02-17 09:53:00,317 - INFO - Set A: 13 students
+2025-02-17 09:53:00,317 - INFO - Set B: 13 students
+2025-02-17 09:53:00,317 - INFO - Set C: 13 students
+2025-02-17 09:53:00,317 - INFO - Set D: 13 students
+2025-02-17 09:53:00,317 - INFO - Set E: 13 students
+2025-02-17 09:53:00,324 - INFO - Section H distribution plan:
+2025-02-17 09:53:00,324 - INFO - Set A: 14 students
+2025-02-17 09:53:00,324 - INFO - Set B: 13 students
+2025-02-17 09:53:00,324 - INFO - Set C: 13 students
+2025-02-17 09:53:00,324 - INFO - Set D: 13 students
+2025-02-17 09:53:00,325 - INFO - Set E: 13 students
+2025-02-17 09:53:00,337 - INFO - Section I distribution plan:
+2025-02-17 09:53:00,337 - INFO - Set A: 14 students
+2025-02-17 09:53:00,337 - INFO - Set B: 13 students
+2025-02-17 09:53:00,337 - INFO - Set C: 13 students
+2025-02-17 09:53:00,337 - INFO - Set D: 13 students
+2025-02-17 09:53:00,337 - INFO - Set E: 13 students
+2025-02-17 09:53:00,343 - INFO - Section J distribution plan:
+2025-02-17 09:53:00,344 - INFO - Set A: 13 students
+2025-02-17 09:53:00,345 - INFO - Set B: 13 students
+2025-02-17 09:53:00,345 - INFO - Set C: 13 students
+2025-02-17 09:53:00,345 - INFO - Set D: 13 students
+2025-02-17 09:53:00,345 - INFO - Set E: 13 students
+2025-02-17 09:53:00,351 - INFO - Section K distribution plan:
+2025-02-17 09:53:00,351 - INFO - Set A: 14 students
+2025-02-17 09:53:00,352 - INFO - Set B: 13 students
+2025-02-17 09:53:00,352 - INFO - Set C: 13 students
+2025-02-17 09:53:00,355 - INFO - Set D: 13 students
+2025-02-17 09:53:00,356 - INFO - Set E: 13 students
+2025-02-17 09:53:00,368 - INFO - Section L distribution plan:
+2025-02-17 09:53:00,368 - INFO - Set A: 13 students
+2025-02-17 09:53:00,369 - INFO - Set B: 13 students
+2025-02-17 09:53:00,369 - INFO - Set C: 13 students
+2025-02-17 09:53:00,370 - INFO - Set D: 13 students
+2025-02-17 09:53:00,370 - INFO - Set E: 12 students
+2025-02-17 09:53:00,496 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,557 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,562 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,683 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,701 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,721 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,730 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,749 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,764 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,768 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,802 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,804 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,821 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,858 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,862 - ERROR - Error processing DOB '01-01-0101': Out of bounds nanosecond timestamp: 01-01-0101, at position 0
+2025-02-17 09:53:00,921 - INFO - SQL file generated: uploads\insert_students_20250217_095259.sql
+2025-02-17 09:53:00,922 - INFO - 127.0.0.1 - - [17/Feb/2025 09:53:00] "POST /upload HTTP/1.1" 200 -
+2025-02-17 09:53:13,580 - INFO - 127.0.0.1 - - [17/Feb/2025 09:53:13] "GET /download/sql HTTP/1.1" 200 -
