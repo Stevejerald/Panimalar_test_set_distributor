@@ -5,6 +5,7 @@ import os
 from werkzeug.utils import secure_filename
 import io
 from datetime import datetime
+import uuid
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
@@ -31,7 +32,6 @@ def allowed_file(filename):
 def process_student_data(df):
     """Process student data and return SQL statements"""
     try:
-
         required_columns = {"Reg_no", "Roll_no", "Name", "Sec", "DOB"}
         if not required_columns.issubset(df.columns):
             missing_cols = required_columns - set(df.columns)
@@ -129,7 +129,8 @@ def upload_file():
 
         filename = secure_filename(file.filename)
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        safe_filename = f"{timestamp}_{filename}"
+        unique_id = str(uuid.uuid4().hex)  # Create a unique ID
+        safe_filename = f"{timestamp}_{unique_id}_{filename}"
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], safe_filename)
 
         file.save(file_path)
@@ -139,8 +140,7 @@ def upload_file():
         
         final_df, sql_statements, distribution_info = process_student_data(df)
     
-     
-        sql_filename = f"insert_students_{timestamp}.sql"
+        sql_filename = f"insert_students_{timestamp}_{unique_id}.sql"
         sql_path = os.path.join(app.config['UPLOAD_FOLDER'], sql_filename)
         with open(sql_path, "w") as f:
             f.write("\n".join(sql_statements))
